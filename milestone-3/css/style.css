@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #083b4b;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 40px 0;
+    font-size: 40px;
+}
+
+#numbers-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    background-color: #1289b2;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.fizz {
+    background-color: #08d6a0;
+}
+
+.box.buzz {
+    background-color: #ffd166;
+}
+
+.box.fizzbuzz {
+    background-color: #f0466f;
+}
